@@ -29,6 +29,9 @@ namespace IdentityServerAspNetIdentity
 
         public void ConfigureServices(IServiceCollection services)
         {
+            services.Configure<IISServerOptions>(options => { options.AutomaticAuthentication = false; });
+
+
             services.AddControllersWithViews();
 
 
