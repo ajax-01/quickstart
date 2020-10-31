@@ -8,19 +8,19 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\Administrator\\.nuget\\packages\\": {}
+    "C:\\Users\\y4984\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\workspace\\dotnet\\quickstart\\src\\JavaScriptClient\\JavaScriptClient.csproj",
+      "projectUniqueName": "D:\\work\\.net\\study\\quickstart\\src\\JavaScriptClient\\JavaScriptClient.csproj",
       "projectName": "JavaScriptClient",
-      "projectPath": "D:\\workspace\\dotnet\\quickstart\\src\\JavaScriptClient\\JavaScriptClient.csproj",
-      "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-      "outputPath": "D:\\workspace\\dotnet\\quickstart\\src\\JavaScriptClient\\obj\\",
+      "projectPath": "D:\\work\\.net\\study\\quickstart\\src\\JavaScriptClient\\JavaScriptClient.csproj",
+      "packagesPath": "C:\\Users\\y4984\\.nuget\\packages\\",
+      "outputPath": "D:\\work\\.net\\study\\quickstart\\src\\JavaScriptClient\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\y4984\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

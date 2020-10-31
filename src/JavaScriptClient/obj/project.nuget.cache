@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Asu/q9aeeVtxaDw3iGeOgiSOXL8sXqMK6xq414EszDka4DdjUEm1Oufyr4/RRfP+b44g4xsvSPIdmSc8zv0fdQ==",
+  "dgSpecHash": "XAbLPEUK4B+pTeQDCuxo8IIHn4GRvF4Zu5mRkZNzTO9kGq4O8hzxL3LkCeQS76sz7zXTSDpjdCScZg3fEdsmjg==",
   "success": true,
-  "projectFilePath": "D:\\workspace\\dotnet\\quickstart\\src\\JavaScriptClient\\JavaScriptClient.csproj",
+  "projectFilePath": "D:\\work\\.net\\study\\quickstart\\src\\JavaScriptClient\\JavaScriptClient.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
