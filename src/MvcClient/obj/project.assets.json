@@ -1,7 +1,7 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v5.0": {
+    "net5.0": {
       "Microsoft.AspNetCore.Authentication.OpenIdConnect/3.1.9": {
         "type": "package",
         "dependencies": {
@@ -357,7 +357,7 @@
     }
   },
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v5.0": [
+    "net5.0": [
       "Microsoft.AspNetCore.Authentication.OpenIdConnect >= 3.1.9",
       "Newtonsoft.Json >= 12.0.2"
     ]
@@ -386,7 +386,8 @@
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "netcoreapp5.0": {
+        "net5.0": {
+          "targetAlias": "netcoreapp5.0",
           "projectReferences": {}
         }
       },
@@ -397,7 +398,8 @@
       }
     },
     "frameworks": {
-      "netcoreapp5.0": {
+      "net5.0": {
+        "targetAlias": "netcoreapp5.0",
         "dependencies": {
           "Microsoft.AspNetCore.Authentication.OpenIdConnect": {
             "target": "Package",
@@ -426,7 +428,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100-preview.6.20318.15\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100-rc.2.20479.15\\RuntimeIdentifierGraph.json"
       }
     }
   }
