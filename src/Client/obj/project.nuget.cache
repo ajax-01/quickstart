@@ -1,12 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "bteV2ZAMMSsMHm4OmM0WdG/jzmYsMTORX906NMujdTQ2yv8H0cscYkr/HDC5GqwjLzS8RknVA7J9+5gwoEOqjg==",
+  "dgSpecHash": "b1n4+kdp2109Hk5EZOmwE9eNWW4z+1CI9WQ/xfmJAFbt6cRKG7FNo+6bGO5h2TB4k6c3gIAvQgRsvmnXRITUlQ==",
   "success": true,
   "projectFilePath": "D:\\work\\.net\\study\\quickstart\\src\\Client\\Client.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\y4984\\.nuget\\packages\\identitymodel\\4.4.0\\identitymodel.4.4.0.nupkg.sha512",
-    "C:\\Users\\y4984\\.nuget\\packages\\newtonsoft.json\\11.0.2\\newtonsoft.json.11.0.2.nupkg.sha512",
-    "C:\\Users\\y4984\\.nuget\\packages\\system.text.encodings.web\\4.7.0\\system.text.encodings.web.4.7.0.nupkg.sha512"
+    "C:\\Users\\y4984\\.nuget\\packages\\identitymodel\\5.0.0-preview.0\\identitymodel.5.0.0-preview.0.nupkg.sha512",
+    "C:\\Users\\y4984\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\y4984\\.nuget\\packages\\system.text.encodings.web\\4.7.0\\system.text.encodings.web.4.7.0.nupkg.sha512",
+    "C:\\Users\\y4984\\.nuget\\packages\\system.text.json\\4.7.1\\system.text.json.4.7.1.nupkg.sha512"
   ],
   "logs": []
 }
