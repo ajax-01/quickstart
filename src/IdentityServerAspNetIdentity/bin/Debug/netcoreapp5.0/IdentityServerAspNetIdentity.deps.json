@@ -26,7 +26,7 @@
         "dependencies": {
           "IdentityServer4.AspNetIdentity": "4.1.1",
           "IdentityServer4.EntityFramework": "4.1.1",
-          "Microsoft.AspNetCore.Authentication.Google": "5.0.0-rc.2.20475.17",
+          "Microsoft.AspNetCore.Authentication.Google": "3.1.9",
           "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": "5.0.0-rc.2.20475.17",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "5.0.0-rc.2.20475.17",
           "Microsoft.AspNetCore.Identity.UI": "5.0.0-rc.2.20475.17",
@@ -426,15 +426,15 @@
           "lib/netstandard2.0/IdentityServer4.Storage.dll": {}
         }
       },
-      "Microsoft.AspNetCore.Authentication.Google/5.0.0-rc.2.20475.17": {
+      "Microsoft.AspNetCore.Authentication.Google/3.1.9": {
         "runtime": {
-          "lib/net5.0/Microsoft.AspNetCore.Authentication.Google.dll": {
-            "assemblyVersion": "5.0.0.0",
-            "fileVersion": "5.0.20.47517"
+          "lib/netcoreapp3.1/Microsoft.AspNetCore.Authentication.Google.dll": {
+            "assemblyVersion": "3.1.9.0",
+            "fileVersion": "3.100.920.47309"
           }
         },
         "compile": {
-          "lib/net5.0/Microsoft.AspNetCore.Authentication.Google.dll": {}
+          "lib/netcoreapp3.1/Microsoft.AspNetCore.Authentication.Google.dll": {}
         }
       },
       "Microsoft.AspNetCore.Authentication.OpenIdConnect/3.1.0": {
@@ -3577,12 +3577,12 @@
       "path": "identityserver4.storage/4.1.1",
       "hashPath": "identityserver4.storage.4.1.1.nupkg.sha512"
     },
-    "Microsoft.AspNetCore.Authentication.Google/5.0.0-rc.2.20475.17": {
+    "Microsoft.AspNetCore.Authentication.Google/3.1.9": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-DkaF/+YfZgbljZr84KqCOvTW5t20O6oOxwOVmYizRWjl9jraCpU1hx4bKM3J+bgyb3KJOB/WuBaiqqgbBoOHBA==",
-      "path": "microsoft.aspnetcore.authentication.google/5.0.0-rc.2.20475.17",
-      "hashPath": "microsoft.aspnetcore.authentication.google.5.0.0-rc.2.20475.17.nupkg.sha512"
+      "sha512": "sha512-RWTckcvgtVWrgMZkAMECzjvrE7luoQDSJNTLKw83LdClLMdCW1yaJjp4WmTOkZfjBtsHsGG16YLc1yGQV4HKSQ==",
+      "path": "microsoft.aspnetcore.authentication.google/3.1.9",
+      "hashPath": "microsoft.aspnetcore.authentication.google.3.1.9.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Authentication.OpenIdConnect/3.1.0": {
       "type": "package",

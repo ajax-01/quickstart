@@ -12,6 +12,7 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.DependencyInjection.Extensions;
 using Microsoft.Extensions.Hosting;
 
 namespace IdentityServerAspNetIdentity
@@ -30,12 +31,10 @@ namespace IdentityServerAspNetIdentity
         public void ConfigureServices(IServiceCollection services)
         {
             services.Configure<IISServerOptions>(options => { options.AutomaticAuthentication = false; });
-
-
             services.AddControllersWithViews();
 
 
-            var migrationsAssembly = typeof(Startup).GetTypeInfo().Assembly.GetName().Name;
+            // var migrationsAssembly = typeof(Startup).GetTypeInfo().Assembly.GetName().Name;
             services.AddDbContext<ApplicationDbContext>(options =>
                 options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
 
@@ -53,22 +52,24 @@ namespace IdentityServerAspNetIdentity
 
                     // see https://identityserver4.readthedocs.io/en/latest/topics/resources.html
                     options.EmitStaticAudienceClaim = true;
-                }).AddConfigurationStore(options =>
-                {
-                    options.ConfigureDbContext = b =>
-                        b.UseSqlServer(Configuration.GetConnectionString("DefaultConnection"),
-                            sql => sql.MigrationsAssembly(migrationsAssembly));
                 })
-                .AddOperationalStore(options =>
-                {
-                    options.ConfigureDbContext = b =>
-                        b.UseSqlServer(Configuration.GetConnectionString("DefaultConnection"),
-                            sql => sql.MigrationsAssembly(migrationsAssembly));
-                })
-                .AddInMemoryIdentityResources(Config.IdentityResources)
-                .AddInMemoryApiScopes(Config.ApiScopes)
-                .AddInMemoryClients(Config.Clients)
+                // .AddConfigurationStore(options =>
+                // {
+                //     options.ConfigureDbContext = b =>
+                //         b.UseSqlServer(Configuration.GetConnectionString("DefaultConnection"),
+                //             sql => sql.MigrationsAssembly(migrationsAssembly));
+                // })
+                // .AddOperationalStore(options =>
+                // {
+                //     options.ConfigureDbContext = b =>
+                //         b.UseSqlServer(Configuration.GetConnectionString("DefaultConnection"),
+                //             sql => sql.MigrationsAssembly(migrationsAssembly));
+                // })
                 .AddAspNetIdentity<ApplicationUser>();
+
+            // .AddInMemoryIdentityResources(Config.IdentityResources)
+            // .AddInMemoryApiScopes(Config.ApiScopes)    
+            // .AddInMemoryClients(Config.Clients)
 
             // not recommended for production - you need to store your key material somewhere secure
             builder.AddDeveloperSigningCredential();
@@ -87,10 +88,24 @@ namespace IdentityServerAspNetIdentity
 
         public void Configure(IApplicationBuilder app)
         {
+            //测试
+            //begin
             if (Environment.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
-                // app.UseDatabaseErrorPage();
+            }
+            else
+            {
+                app.UseExceptionHandler("/Error");
+                app.UseHsts();
+            }
+            //end
+
+
+            if (this.Environment.IsDevelopment())
+            {
+                app.UseDeveloperExceptionPage();
+                // app.UseDatabaseErrorPage();    
             }
 
             app.UseCors("default");

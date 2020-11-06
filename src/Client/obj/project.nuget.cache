@@ -1,13 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "FhTQs28LhC3drKf8nqKyvYsJ0OSG59x75/2UnQDt96+uMIcKLw9pwpkbXvWfsrzn0Ls6tHwexaSeLTnFPF1Kew==",
+  "dgSpecHash": "tJAcre5OVnuLw6tidj5LpupfTUDZ92rCtBCVsZO5Fsp9+P1ls/bE4Qkt2BQQoXs8OWnfxS0H715DDQ3/hTCm8A==",
   "success": true,
   "projectFilePath": "D:\\workspace\\dotnet\\quickstart\\src\\Client\\Client.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\Administrator\\.nuget\\packages\\identitymodel\\5.0.0-preview.0\\identitymodel.5.0.0-preview.0.nupkg.sha512",
-    "C:\\Users\\Administrator\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
-    "C:\\Users\\Administrator\\.nuget\\packages\\system.text.encodings.web\\4.7.0\\system.text.encodings.web.4.7.0.nupkg.sha512",
-    "C:\\Users\\Administrator\\.nuget\\packages\\system.text.json\\4.7.1\\system.text.json.4.7.1.nupkg.sha512"
-  ],
+  "expectedPackageFiles": [],
   "logs": []
 }
