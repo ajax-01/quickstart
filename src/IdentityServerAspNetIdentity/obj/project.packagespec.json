@@ -1,10 +1,10 @@
 ﻿{
   "version": "1.0.0",
   "restore": {
-    "projectUniqueName": "D:\\workspace\\dotnet\\quickstart\\src\\IdentityServerAspNetIdentity\\IdentityServerAspNetIdentity.csproj",
+    "projectUniqueName": "D:\\work\\.net\\study\\quickstart\\src\\IdentityServerAspNetIdentity\\IdentityServerAspNetIdentity.csproj",
     "projectName": "IdentityServerAspNetIdentity",
-    "projectPath": "D:\\workspace\\dotnet\\quickstart\\src\\IdentityServerAspNetIdentity\\IdentityServerAspNetIdentity.csproj",
-    "outputPath": "D:\\workspace\\dotnet\\quickstart\\src\\IdentityServerAspNetIdentity\\obj\\",
+    "projectPath": "D:\\work\\.net\\study\\quickstart\\src\\IdentityServerAspNetIdentity\\IdentityServerAspNetIdentity.csproj",
+    "outputPath": "D:\\work\\.net\\study\\quickstart\\src\\IdentityServerAspNetIdentity\\obj\\",
     "projectStyle": "PackageReference",
     "originalTargetFrameworks": [
       "netcoreapp5.0"
@@ -88,7 +88,7 @@
           "privateAssets": "all"
         }
       },
-      "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100-preview.6.20318.15\\RuntimeIdentifierGraph.json"
+      "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
     }
   }
 }

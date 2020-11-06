@@ -1,8 +1,20 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "tJAcre5OVnuLw6tidj5LpupfTUDZ92rCtBCVsZO5Fsp9+P1ls/bE4Qkt2BQQoXs8OWnfxS0H715DDQ3/hTCm8A==",
   "success": true,
   "projectFilePath": "D:\\workspace\\dotnet\\quickstart\\src\\Client\\Client.csproj",
   "expectedPackageFiles": [],
+=======
+  "dgSpecHash": "b1n4+kdp2109Hk5EZOmwE9eNWW4z+1CI9WQ/xfmJAFbt6cRKG7FNo+6bGO5h2TB4k6c3gIAvQgRsvmnXRITUlQ==",
+  "success": true,
+  "projectFilePath": "D:\\work\\.net\\study\\quickstart\\src\\Client\\Client.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\y4984\\.nuget\\packages\\identitymodel\\5.0.0-preview.0\\identitymodel.5.0.0-preview.0.nupkg.sha512",
+    "C:\\Users\\y4984\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\y4984\\.nuget\\packages\\system.text.encodings.web\\4.7.0\\system.text.encodings.web.4.7.0.nupkg.sha512",
+    "C:\\Users\\y4984\\.nuget\\packages\\system.text.json\\4.7.1\\system.text.json.4.7.1.nupkg.sha512"
+  ],
+>>>>>>> 297268324ac0133daa09439b79a74172e474efd3
   "logs": []
 }
