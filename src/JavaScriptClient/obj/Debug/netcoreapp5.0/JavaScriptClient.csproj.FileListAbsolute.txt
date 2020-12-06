@@ -19,3 +19,4 @@ D:\workspace\dotnet\quickstart\src\JavaScriptClient\obj\Debug\netcoreapp5.0\stat
 D:\workspace\dotnet\quickstart\src\JavaScriptClient\obj\Debug\netcoreapp5.0\JavaScriptClient.dll
 D:\workspace\dotnet\quickstart\src\JavaScriptClient\obj\Debug\netcoreapp5.0\JavaScriptClient.pdb
 D:\workspace\dotnet\quickstart\src\JavaScriptClient\obj\Debug\netcoreapp5.0\JavaScriptClient.genruntimeconfig.cache
+D:\workspace\dotnet\quickstart\src\JavaScriptClient\bin\Debug\netcoreapp5.0\Web.config
