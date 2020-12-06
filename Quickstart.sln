@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JavaScriptClient", "src\Jav
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IdentityServerAspNetIdentity", "src\IdentityServerAspNetIdentity\IdentityServerAspNetIdentity.csproj", "{84161111-F9DA-4ABD-94F7-0B0620BEFB21}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IdentityServerAspNetIdentity2", "src\IdentityServerAspNetIdentity2\IdentityServerAspNetIdentity2.csproj", "{FCBF2F24-AB77-46C5-8745-808439A9805F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -102,6 +104,18 @@ Global
 		{84161111-F9DA-4ABD-94F7-0B0620BEFB21}.Release|x64.Build.0 = Release|Any CPU
 		{84161111-F9DA-4ABD-94F7-0B0620BEFB21}.Release|x86.ActiveCfg = Release|Any CPU
 		{84161111-F9DA-4ABD-94F7-0B0620BEFB21}.Release|x86.Build.0 = Release|Any CPU
+		{FCBF2F24-AB77-46C5-8745-808439A9805F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCBF2F24-AB77-46C5-8745-808439A9805F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCBF2F24-AB77-46C5-8745-808439A9805F}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{FCBF2F24-AB77-46C5-8745-808439A9805F}.Debug|x64.Build.0 = Debug|Any CPU
+		{FCBF2F24-AB77-46C5-8745-808439A9805F}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{FCBF2F24-AB77-46C5-8745-808439A9805F}.Debug|x86.Build.0 = Debug|Any CPU
+		{FCBF2F24-AB77-46C5-8745-808439A9805F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCBF2F24-AB77-46C5-8745-808439A9805F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FCBF2F24-AB77-46C5-8745-808439A9805F}.Release|x64.ActiveCfg = Release|Any CPU
+		{FCBF2F24-AB77-46C5-8745-808439A9805F}.Release|x64.Build.0 = Release|Any CPU
+		{FCBF2F24-AB77-46C5-8745-808439A9805F}.Release|x86.ActiveCfg = Release|Any CPU
+		{FCBF2F24-AB77-46C5-8745-808439A9805F}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{07B66DEF-08E9-4CEE-8981-AE3D3D6D7D73} = {0B541C84-C061-4044-9525-69B59D4152DF}

@@ -28,6 +28,7 @@ namespace Client
                 ClientId = "client",
                 ClientSecret = "secret",
                 Scope = "api1"
+                
             });
 
             if (tokenResponse.IsError)

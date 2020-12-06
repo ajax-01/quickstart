@@ -53,21 +53,22 @@ namespace IdentityServerAspNetIdentity
 
                     // see https://identityserver4.readthedocs.io/en/latest/topics/resources.html
                     options.EmitStaticAudienceClaim = true;
-                }).AddConfigurationStore(options =>
-                {
-                    options.ConfigureDbContext = b =>
-                        b.UseSqlServer(Configuration.GetConnectionString("DefaultConnection"),
-                            sql => sql.MigrationsAssembly(migrationsAssembly));
                 })
-                .AddOperationalStore(options =>
-                {
-                    options.ConfigureDbContext = b =>
-                        b.UseSqlServer(Configuration.GetConnectionString("DefaultConnection"),
-                            sql => sql.MigrationsAssembly(migrationsAssembly));
-                })
-                .AddInMemoryIdentityResources(Config.IdentityResources)
-                .AddInMemoryApiScopes(Config.ApiScopes)
-                .AddInMemoryClients(Config.Clients)
+                // .AddConfigurationStore(options =>
+                // {
+                //     options.ConfigureDbContext = b =>
+                //         b.UseSqlServer(Configuration.GetConnectionString("DefaultConnection"),
+                //             sql => sql.MigrationsAssembly(migrationsAssembly));
+                // })
+                // .AddOperationalStore(options =>
+                // {
+                //     options.ConfigureDbContext = b =>
+                //         b.UseSqlServer(Configuration.GetConnectionString("DefaultConnection"),
+                //             sql => sql.MigrationsAssembly(migrationsAssembly));
+                // })
+                // .AddInMemoryIdentityResources(Config.IdentityResources)
+                // .AddInMemoryApiScopes(Config.ApiScopes)
+                // .AddInMemoryClients(Config.Clients)
                 .AddAspNetIdentity<ApplicationUser>();
 
             // not recommended for production - you need to store your key material somewhere secure

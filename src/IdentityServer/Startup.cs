@@ -74,34 +74,34 @@ namespace IdentityServer
             services.AddControllersWithViews();
 
             var migrationsAssembly = typeof(Startup).GetTypeInfo().Assembly.GetName().Name;
-            const string connectionString =
-                "Data Source=localhost;Initial Catalog=MyTestDb;User Id=yzf;Password=fangev587;";
-
-            var builder = services.AddIdentityServer()
-                .AddTestUsers(TestUsers.Users)
-                .AddConfigurationStore(options =>
-                {
-                    options.ConfigureDbContext = b => b.UseSqlServer(connectionString,
-                        sql => sql.MigrationsAssembly(migrationsAssembly));
-                })
-                .AddOperationalStore(options =>
-                {
-                    options.ConfigureDbContext = b => b.UseSqlServer(connectionString,
-                        sql => sql.MigrationsAssembly(migrationsAssembly));
-                });
+            // const string connectionString =
+            //     "Data Source=localhost;Initial Catalog=MyTestDb;User Id=yzf;Password=fangev587;";
+            //
+            // var builder = services.AddIdentityServer()
+            //     .AddTestUsers(TestUsers.Users)
+            //     .AddConfigurationStore(options =>
+            //     {
+            //         options.ConfigureDbContext = b => b.UseSqlServer(connectionString,
+            //             sql => sql.MigrationsAssembly(migrationsAssembly));
+            //     })
+            //     .AddOperationalStore(options =>
+            //     {
+            //         options.ConfigureDbContext = b => b.UseSqlServer(connectionString,
+            //             sql => sql.MigrationsAssembly(migrationsAssembly));
+            //     });
 
 
             // uncomment, if you want to add an MVC-based UI
 
-            // var builder = services.AddIdentityServer(options =>
-            //     {
-            //         // see https://identityserver4.readthedocs.io/en/latest/topics/resources.html
-            //         options.EmitStaticAudienceClaim = true;
-            //     })
-            //     .AddInMemoryIdentityResources(Config.IdentityResources)
-            //     .AddInMemoryApiScopes(Config.ApiScopes)
-            //     .AddInMemoryClients(Config.Clients)
-            //     .AddTestUsers(TestUsers.Users);
+            var builder = services.AddIdentityServer(options =>
+                {
+                    // see https://identityserver4.readthedocs.io/en/latest/topics/resources.html
+                    options.EmitStaticAudienceClaim = true;
+                })
+                .AddInMemoryIdentityResources(Config.IdentityResources)
+                .AddInMemoryApiScopes(Config.ApiScopes)
+                .AddInMemoryClients(Config.Clients)
+                .AddTestUsers(TestUsers.Users);
 
 
             // not recommended for production - you need to store your key material somewhere secure

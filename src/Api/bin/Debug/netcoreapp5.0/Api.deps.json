@@ -7,10 +7,11 @@
     "defines": [
       "TRACE",
       "DEBUG",
-      "NETCOREAPP",
-      "NETCOREAPP5_0"
+      "NET",
+      "NET5_0",
+      "NETCOREAPP"
     ],
-    "languageVersion": "",
+    "languageVersion": "9.0",
     "platform": "",
     "allowUnsafe": false,
     "warningsAsErrors": false,
@@ -188,6 +189,7 @@
           "System.Drawing": "4.0.0.0",
           "System.Drawing.Primitives": "5.0.0.0",
           "System.Dynamic.Runtime.Reference": "5.0.0.0",
+          "System.Formats.Asn1": "5.0.0.0",
           "System.Globalization.Calendars": "5.0.0.0",
           "System.Globalization.Reference": "5.0.0.0",
           "System.Globalization.Extensions.Reference": "5.0.0.0",
@@ -1833,6 +1835,12 @@
       "System.Dynamic.Runtime.Reference/5.0.0.0": {
         "compile": {
           "System.Dynamic.Runtime.dll": {}
+        },
+        "compileOnly": true
+      },
+      "System.Formats.Asn1/5.0.0.0": {
+        "compile": {
+          "System.Formats.Asn1.dll": {}
         },
         "compileOnly": true
       },
@@ -3740,6 +3748,11 @@
       "sha512": ""
     },
     "System.Dynamic.Runtime.Reference/5.0.0.0": {
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "System.Formats.Asn1/5.0.0.0": {
       "type": "referenceassembly",
       "serviceable": false,
       "sha512": ""
